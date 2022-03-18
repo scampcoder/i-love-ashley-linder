@@ -1,6 +1,6 @@
 import {nanoid} from 'nanoid'
 
-export default [
+const compliments = [
     {
         id: nanoid(),
         type: "compliment",
@@ -12,3 +12,5 @@ export default [
         text: "Hey bish. Whatever you're going through right now, you're gonna do great. You're amazing and I love you so much"
     }
 ]
+
+export default compliments;
