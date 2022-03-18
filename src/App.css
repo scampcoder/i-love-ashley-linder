@@ -8,13 +8,30 @@ body {
 .compliment-container {
     background-image: url(../public/smallwindow.png);
     background-repeat: no-repeat;
-    height: 500px;
-    margin: 12% 30%;
+    background-size: cover;
+    min-height: 500px;
+    height: 50%;
+    width: auto;
+    margin: 10% 30%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
 }
 
 .compliment {
-    padding-top: 30%;
     color: rgb(255, 0, 128);
     font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0;
+    max-width: 85%;
+}
+
+.pics {
+    height: 250px;
+    width: auto;
+    margin-top: 0;
+    border-radius: 20px;
 }
