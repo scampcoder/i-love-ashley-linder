@@ -5,6 +5,16 @@ body {
     background-size: cover;
 }
 
-.compliments-container {
-    
+.compliment-container {
+    background-image: url(../public/smallwindow.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 12% 30%;
+    text-align: center;
+}
+
+.compliment {
+    padding-top: 30%;
+    color: rgb(255, 0, 128);
+    font-family: 'Press Start 2P', cursive;
 }

@@ -1,9 +1,10 @@
 import './App.css';
+import Compliment from './components/ComplimentComponent';
 
 function App() {
   return (
     <div className="App">
-      <p>Cool stuff to go here</p>
+      <Compliment />
     </div>
   );
 }
