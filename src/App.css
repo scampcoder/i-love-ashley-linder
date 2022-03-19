@@ -6,7 +6,7 @@ body {
 
 .body-box {
     background-color: rgba(173,237,236,255);
-    height: 85vh;
+    height: 100vh;
     margin: 20px;
     margin-top: 0px;
     border-radius: 10px;
@@ -30,7 +30,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    width: fit-content;
+    width: 60%;
 }
 
 .compliment {
@@ -39,13 +39,12 @@ body {
     background-color: #ffe6ee;
     color: rgb(255, 0, 128);
     font-family: 'Press Start 2P', cursive;
-    font-size: 2vw;
     line-height: 40px;
     margin: 0;
     height: auto;
     width: auto;
     z-index: 2;
-    padding: 10px;
+    padding: 10px 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,8 +52,8 @@ body {
 }
 
 .pics {
-    height: auto;
-    width: 40%;
+    height: 40vh;
+    width: auto;
     margin-top: 0;
     border-radius: 20px;
 }
@@ -73,4 +72,19 @@ body {
     margin: 5px;
     margin-bottom: 0;
     margin-left: 2%;
+}
+
+@media (max-width: 385px) {
+    .body-box {
+        margin: 0;
+    }
+
+    .compliment-container {
+        width: 100vw;
+        height: 95vh;
+    }
+
+    .compliment {
+        height: 100%;
+    }
 }
