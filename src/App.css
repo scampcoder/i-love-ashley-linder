@@ -39,22 +39,22 @@ body {
     background-color: #ffe6ee;
     color: rgb(255, 0, 128);
     font-family: 'Press Start 2P', cursive;
-    font-size: 25px;
+    font-size: 2vw;
     line-height: 40px;
     margin: 0;
-    min-height: 30vh;
     height: auto;
     max-width: 50vw;
     z-index: 2;
     padding: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .pics {
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 20vw;
     margin-top: 0;
     border-radius: 20px;
 }
