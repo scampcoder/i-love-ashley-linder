@@ -19,7 +19,7 @@ body {
 
 .compliment-container {
     background-color: #ffaec9;
-    border: 8px solid #ff0080;
+    border: .5rem solid #ff0080;
     border-radius: 10px;
     text-align: center;
     display: flex;
@@ -34,7 +34,7 @@ body {
 }
 
 .compliment {
-    border: 8px solid #ff0080;
+    border: .5rem solid #ff0080;
     border-radius: 10px;
     background-color: #ffe6ee;
     color: rgb(255, 0, 128);
@@ -43,7 +43,7 @@ body {
     line-height: 40px;
     margin: 0;
     height: auto;
-    max-width: 50vw;
+    width: auto;
     z-index: 2;
     padding: 10px;
     display: flex;
@@ -54,7 +54,7 @@ body {
 
 .pics {
     height: auto;
-    width: 20vw;
+    width: 40%;
     margin-top: 0;
     border-radius: 20px;
 }
