@@ -6,7 +6,7 @@ body {
 
 .body-box {
     background-color: rgba(173,237,236,255);
-    height: 90vh;
+    height: 85vh;
     margin: 20px;
     margin-top: 0px;
     border-radius: 10px;
@@ -47,10 +47,13 @@ body {
     max-width: 50vw;
     z-index: 2;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pics {
-    height: 250px;
+    height: 500px;
     width: auto;
     margin-top: 0;
     border-radius: 20px;
