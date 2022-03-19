@@ -1,32 +1,52 @@
 body {
-    background-image: url(../public/window1.2.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+ background-color: #2596be;
+ border: 8px solid #04b3b4;
+ border-radius: 10px;
 }
 
-.compliment-container {
-    background-image: url(../public/smallwindow.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 500px;
-    height: 50%;
-    width: auto;
-    margin: 10% 30%;
-    text-align: center;
+.body-box {
+    background-color: rgba(173,237,236,255);
+    height: 90vh;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    border: 8px solid #04b3b4;
+    border-radius: 10px;
+}
+
+.compliment-container {
+    background-color: #ffaec9;
+    border: 8px solid #ff0080;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: fit-content;
 }
 
 .compliment {
+    border: 8px solid #ff0080;
+    border-radius: 10px;
+    background-color: #ffe6ee;
     color: rgb(255, 0, 128);
     font-family: 'Press Start 2P', cursive;
     font-size: 25px;
     line-height: 40px;
     margin: 0;
-    max-width: 85%;
+    min-height: 30vh;
+    height: auto;
+    max-width: 50vw;
+    z-index: 2;
+    padding: 10px;
 }
 
 .pics {
@@ -34,4 +54,20 @@ body {
     width: auto;
     margin-top: 0;
     border-radius: 20px;
+}
+
+.pink-border {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 5px;
+}
+
+.blue-border {
+    height: auto;
+    width: 95%;
+    padding: 0;
+    margin: 5px;
+    margin-bottom: 0;
+    margin-left: 2%;
 }

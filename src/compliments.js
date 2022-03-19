@@ -7,7 +7,7 @@ const compliments = [
     },
     {
         id: nanoid(),
-        text: "Hey bish. Whatever you're going through right now, you're gonna do great. You're amazing and I love you so much"
+        text: "Hey bish. Whatever you're going through right now, you're gonna do great. You're amazing and I love you so much."
     },
     {
         id: nanoid(),
